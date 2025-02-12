@@ -1,0 +1,28 @@
+.linksBar{
+    align-content: center;
+    border-style:solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.linkItem{
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.linkBtn{
+    background-color: #f32b17cc!important;
+    border-color: #f32b17cc!important;
+    width: 100%;
+    text-transform: uppercase;
+    /*
+    font-size: 4vh!important;
+    font-weight: 500!important;
+    height: 8vh;
+    */
+}
