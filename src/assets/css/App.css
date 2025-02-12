@@ -6,14 +6,17 @@
   width: auto;
   height: 100vh;
   padding: 20px;
+  background-image: url('../statics/background2.svg');
+  background-size: cover;
 }
 
 .appContent{
   display: inline-block;
+  width: 60vh;
   height: 85vh;
   padding: 20px;
   border-style:solid;
-  border-color: black;
+  border-color: #686868;
   border-width: 1px;
   border-radius: 20px;
 }

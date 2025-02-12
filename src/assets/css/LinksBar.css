@@ -5,7 +5,7 @@
     border-width: 1px;
     border-radius: 20px;
     padding-top: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -16,8 +16,8 @@
 }
 
 .linkBtn{
-    background-color: #f32b17cc!important;
-    border-color: #f32b17cc!important;
+    background-color: #d6030d!important;
+    border-color: #d6030d!important;
     width: 100%;
     text-transform: uppercase;
     /*
@@ -25,4 +25,9 @@
     font-weight: 500!important;
     height: 8vh;
     */
+}
+
+.linkImg{
+    width: 20px;
+    margin-right:5px;
 }
