@@ -13,7 +13,7 @@ export default function LinksBar() {
             <Row>
                 <Col md={12}>
                     <div className='linkItem'>
-                        <a href='/'>
+                        <a href='https://wa.me/+5491138609659' target='_blank' rel='noreferrer'> {/* telefono de Pablo Fidani */}
                             <button type="button" class="linkBtn btn btn-primary">
                                 <img src={Wpp} alt='' className='linkImg'></img>
                                 Contacto
@@ -23,7 +23,7 @@ export default function LinksBar() {
                 </Col>
                 <Col md={12}>
                     <div className='linkItem'>
-                        <a href='/'>
+                        <a href='https://www.instagram.com/gfpredio?igsh=bWJnMHNka3FrY2p0' target='_blank' rel='noreferrer'> {/* instagram GF */}
                             <button type="button" class="linkBtn btn btn-primary">
                                 <img src={Insta} alt='' className='linkImg'></img>
                                 Instagram
@@ -33,7 +33,7 @@ export default function LinksBar() {
                 </Col>
                 <Col md={12}>
                     <div className='linkItem'>
-                        <a href='/'>
+                        <a href='https://www.youtube.com/@gffutbol1570/featured' target='_blank' rel='noreferrer'> {/* youtube de GF */}
                             <button type="button" class="linkBtn btn btn-primary">
                                 <img src={Yt} alt='' className='linkImg'></img>
                                 Canal oficial
@@ -43,7 +43,7 @@ export default function LinksBar() {
                 </Col>
                 <Col md={12}>
                     <div className='linkItem'>
-                        <a href='/'>
+                        <a href='https://maps.app.goo.gl/CfVdmUxP6MaTaauw5' target='_blank' rel='noreferrer'> {/* ubicación predio (Luz y fuerza) */}
                             <button type="button" class="linkBtn btn btn-primary">
                                 <img src={Map} alt='' className='linkImg'></img>
                                 Donde estamos
