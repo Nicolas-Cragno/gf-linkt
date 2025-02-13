@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 100vh;
+  padding: 20px;
+  background-image: url('../statics/background2.svg');
+  background-size: cover;
+}
+
+.appContent{
+  display: inline-block;
+  width: 60vh;
+  height: 85vh;
+  padding: 20px;
+  border-style:solid;
+  border-color: #686868;
+  border-width: 1px;
+  border-radius: 20px;
+}
+
+.appTxt{
+  font-style: italic;
+  font-weight: lighter;
+}
+
+/*
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+  */
