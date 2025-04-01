@@ -6,15 +6,21 @@
   width: auto;
   height: 100vh;
   padding: 20px;
-  background-image: url('../statics/background2.svg');
   background-size: cover;
+  background-image: url('../statics/background2.svg');
+  /*
+  background-color: #632427;
+  background-color: #ca8084;
+  */
+  
 }
 
 .appContent{
+  overflow: hidden;
   display: inline-block;
   width: 60vh;
   height: 85vh;
-  padding: 20px;
+  padding: 5px;
   border-style:solid;
   border-color: #686868;
   border-width: 1px;

@@ -1,13 +1,21 @@
 .linksBar{
+    height: 50vh;
     align-content: center;
-    border-style:solid;
-    border-color: black;
     border-width: 1px;
-    border-radius: 20px;
     padding-top: 25px;
     padding-bottom: 5px;
     margin-top: 25px;
     margin-bottom: 25px;
+    overflow: auto;
+    overflow-x: hidden;
+    scrollbar-color: #686868 #632427;
+    scrollbar-width:thin;
+    /* PRIMER FORMATO 
+    border-radius: 20px;
+    border-style:solid;
+    border-color: black;
+    
+    */
 }
 
 .linkItem{
@@ -16,10 +24,16 @@
 }
 
 .linkBtn{
+    background-color: #d6030d;
+    color: #efdedc;
+    border-color: #686868 !important;
+    width: 100%;
+    border-radius: 0; /* para que el boton sea cuadrado */
+    /* PRIMER FORMATO
+    text-transform: uppercase;
     background-color: #d6030d!important;
     border-color: #d6030d!important;
-    width: 100%;
-    text-transform: uppercase;
+    */
     /*
     font-size: 4vh!important;
     font-weight: 500!important;
@@ -27,7 +41,25 @@
     */
 }
 
+.linkBtn:hover{
+    border-color: white !important;
+    background-color: transparent;
+    /* primer formato
+    background-color: #ca8084; 
+    background-color: #632427;
+    */
+}
+
 .linkImg{
+    float: left;
     width: 20px;
     margin-right:5px;
+}
+
+.proximamente{
+    background-color: #1d1d1d;
+    color: white;
+    padding: 2vh;
+    align-content: center;
+    margin-top: 25px;
 }

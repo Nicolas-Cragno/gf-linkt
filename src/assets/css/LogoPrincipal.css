@@ -1,21 +1,28 @@
 .imgPrincipal{
-    width: 20vh;
+    width: 15vh;
     /*
-    border-style:solid;
     border-radius: 50%;
     border-width: 1px;
+    border-style:solid;
     border-color: #d6030d;
     */
     margin: 10px;
+    /* primer formato 
+    width: 20vh;
+    */
 }
 
 .logoTitle{
     width: 100% ;
+    font-size: x-large;
     opacity: calc(0.85);
     color: white;
+    /* primer formato 
+    */
 }
 
 .logoTxt{
     font-weight:bolder;
+    font-size: medium;
     color:white;
 }
